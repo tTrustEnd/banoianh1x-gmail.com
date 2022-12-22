@@ -1,0 +1,33 @@
+.menu {
+    background-color: rgb(22, 4, 39);
+    height: 100%;
+}
+.menuleft {
+    list-style: none;
+    font-size: 20px;;
+    color: white;
+}
+.menubot{
+    display: flex;
+    color: aliceblue;
+    background-color: rgb(173, 36, 150);
+    height: 190px;
+    width: 190px;
+    background-position: center;
+    width: 70%;
+    margin: 5px 15px 65px 65px;
+    border: 2px solid rgb(204, 182, 182);
+    border-radius: 50px;
+}
+.menubot .c{
+    display: flex;
+    font-size: 15px;;
+}
+.menubot h2{
+    display: flex;
+    border: 5px solid red;
+    border-radius: 50px;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
