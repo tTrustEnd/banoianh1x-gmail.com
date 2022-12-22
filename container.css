@@ -1,0 +1,22 @@
+.container {
+    display: grid;
+    grid-template-columns: 2fr 8fr 2fr;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: rgb(25, 11, 51);
+}
+.contents .radio {
+    display: flex;
+}
+
+.container .menu {
+    height: fit-content;
+  overflow: hidden;
+}
+.container .contents {
+    overflow: none;
+    -ms-overflow-style: none;
+}
